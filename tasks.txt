@@ -1,0 +1,5 @@
+- Initialize a GitHub repo and document the rise of the Gupta Empire in a README.md.
+- Write a simple Java program to calculate and display the current points table for the IPL.
+- Map out the major cities of the Vedic period using a structured Markdown list.
+- Update your GitHub profile with a new "Projects" section highlighting your latest work in Spring Boot.
+- Map out the major cities of the Vedic period using a structured Markdown list.
