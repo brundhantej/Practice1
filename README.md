@@ -46,7 +46,7 @@ This project is part of my practice work (**Practice1**) and focuses on game log
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/Practice1.git
+git clone https://github.com/brundhantej/Practice1.git
 cd Practice1
 ```
 
