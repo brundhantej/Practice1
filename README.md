@@ -1,54 +1,103 @@
-\# Space Dodger 🚀
+# 🚀 Space Dodger Game
 
+A simple and fun **2D arcade game** built using **Python and Tkinter**.
+This project is part of my practice work (**Practice1**) and focuses on game logic, GUI design, and event handling.
 
+---
 
-Welcome to \*\*Practice1\*\*. This repository is a dedicated sandbox for exploring technical concepts, building logic-driven scripts, and refining my development workflow.
+## 🎮 Gameplay
 
+* Control the player using keyboard
+* Dodge falling asteroids ☄️
+* Survive as long as possible
+* Game gets faster every **50 points** 🔥
 
+---
 
-\---
+## ✨ Features
 
+* 🎯 Smooth left/right movement
+* ☄️ Random asteroid generation
+* ⚡ Dynamic speed increase based on score
+* 📊 Live Score & Speed display
+* 💥 Collision detection with Game Over
+* 🖥️ Clean GUI using Tkinter
 
+---
 
-\### 🕹️ Featured Project: Space Dodger
+## 🛠️ Tech Stack
 
-A retro-style evasion game built entirely for the terminal. It’s a test of reflexes and clean Python logic.
+* **Python**
+* **Tkinter (GUI Library)**
 
+---
 
+## 🎹 Controls
 
-\*   \*\*Objective:\*\* Navigate your ship (`^`) through a field of incoming asteroids (`\*`).
+| Key | Action     |
+| --- | ---------- |
+| A   | Move Left  |
+| D   | Move Right |
 
-\*   \*\*Controls:\*\* Use `A` (Left) and `D` (Right) to survive.
+---
 
-\*   \*\*Engine:\*\* Built using Python's `time` and `msvcrt` modules for real-time interaction.
+## 🚀 How to Run
 
+### 1. Clone the repository
 
+```bash
+git clone https://github.com/your-username/Practice1.git
+cd Practice1
+```
 
-\---
+### 2. Run the game
 
+```bash
+python game.py
+```
 
+---
 
-\### 🛠️ Tech \& Tools
+## 📁 Project Structure
 
-\*   \*\*Core:\*\* Python 3.10+
+```
+Practice1/
+│
+├── game.py
+└── README.md
+```
 
-\*   \*\*Architecture:\*\* Modular Scripting \& CLI Interfaces
+---
 
-\*   \*\*Environment:\*\* Terminal / Command Prompt
+## 📈 Game Logic
 
+* Initial speed = **5**
+* Speed increases every **50 points**
 
+```
+current_speed = base_speed + (score // 50)
+```
 
-\### 📂 Quick Start
+---
 
-1\. \*\*Clone the Repo\*\*
+## 🎯 Future Improvements
 
-&#x20;  ```bash
+* 🌌 Background animation
+* 💥 Explosion effects
+* ❤️ Lives system
+* 🎵 Sound effects
+* 🔁 Restart option
+* 🎮 Pygame upgrade
 
-&#x20;  git clone \[https://github.com/brundhantej/Practice1.git](https://github.com/brundhantej/Practice1.git)
+---
 
+## 👨‍💻 Author
 
+**Brundhan Tej**
 
-2\. To Launch Game :
+---
 
-&#x09;python space\_game.py
+## ⭐ Support
+
+If you like this project, give it a ⭐ on GitHub!
 
